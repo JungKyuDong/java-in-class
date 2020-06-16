@@ -1,4 +1,4 @@
-package com.kh.example.list_model.vo;
+package com.kh.example.list.model.vo;
 
 public class Student implements Comparable<Student>{ // 정렬을 하기 위해 implements Comparable
 
@@ -40,7 +40,7 @@ public class Student implements Comparable<Student>{ // 정렬을 하기 위해 impleme
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + (name == null? 0 : name.hashCode()); // 참조형일때
-//		result = prime * result + score; // 기본형일때
+		result = prime * result + score; // 기본형일때
 		
 		return result;
 	}

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 import com.kh.example.list.model.compare.StudentCompare;
-import com.kh.example.list_model.vo.Student;
+import com.kh.example.list.model.vo.Student;
 
 public class ListController {
 
@@ -55,7 +55,7 @@ public class ListController {
 		System.out.println("list : " + list);
 		
 		// remove(Object o) : 해당 Object객체 삭제
-		list.remove(new Student("강건강", 40)); 
+		list.remove(new Student("강건강", 40));
 		System.out.println("list : " + list);
 		// 삭제 되지 않았다 -> 주소값을 보고 삭제하는데 new라는 연산자 때문에 주소값이 다른 객체이다
 		// 동일 객체 : 주소값이 같은 객체

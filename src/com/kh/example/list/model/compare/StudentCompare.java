@@ -2,7 +2,7 @@ package com.kh.example.list.model.compare;
 
 import java.util.Comparator;
 
-import com.kh.example.list_model.vo.Student;
+import com.kh.example.list.model.vo.Student;
 
 public class StudentCompare implements Comparator<Student>{
 
